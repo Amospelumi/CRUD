@@ -1,0 +1,37 @@
+#lambda function.
+x = lambda a, b, c : a + b + c + 10
+print(x(1,2,3))
+
+cars = ["Ford", "Volvo", "BMW"]
+names = ["Tayo", "Bolu", "Dayo"]
+
+cars[1]="Benzo"
+cars[-1]="Hyundai"
+
+
+
+for name in names:
+	for car in cars:
+        # cars.remove("Volvo")
+  		    print (f'{name} owns that {car}')
+        
+print(len(cars))
+print(len(names))
+
+fruits = ["apple", "banana", "cherry"]
+
+x = fruits.copy()
+print(x)
+
+class pelumi:
+    def __init__(this, name, age):
+        this.name = name
+        this.age = age
+
+    def myFunc(this):
+        return "Hello i'm " + this.name + ", i'm "  + str(this.age)
+
+p = pelumi("john", 2)
+print(p)
+# p.age = 24
+# print(p.myFunc())

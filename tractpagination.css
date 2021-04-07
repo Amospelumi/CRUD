@@ -1,0 +1,99 @@
+body{
+    background-image: url('Apostle.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px ;
+    margin-right: 200px ;
+    background-color: rgba(255, 255, 255, 0.301); 
+    border-radius: 8px; 
+    padding: 8px; 
+    
+}
+.row{
+    background-color: rgb(6, 6, 170);
+    color: white;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;  
+}
+table{
+    border: 1px solid rgb(51, 50, 50);   
+    border-collapse: collapse;
+    width: max-content;
+    padding: 15px 15px;
+    width: 100%;
+    
+    
+    
+}
+
+table tr:nth-child(even){
+    background-color:  rgba(238, 238, 238, 0.384);
+}
+
+.tablehead {
+    background-color: black;
+    color: white;
+}
+
+th, td{
+    border: 1px solid rgb(129, 128, 128);
+    padding: 8px 8px; 
+}
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+th{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+       
+}
+
+.row{
+    color: red;
+    text-shadow: 1px 1px 4px white;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+
+li {
+    float:left;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    
+   
+    
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    background-color:rgb(12, 12, 163);
+    color: white;  
+    font-family: sans-serif;
+}
+Input[type=button]:hover{
+    opacity: 0.5;
+}
+Input[type=submit]:hover{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 0.5;
+}
+
+

@@ -1,0 +1,47 @@
+#data {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 3px 7px black;
+    width: 500px;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: 80%;
+}
+.main{
+    padding: 8px 8px;
+    
+}
+.content{
+    background-color: rgb(13, 13, 153);
+    padding: 8px 8px;
+    border-radius: 8px;
+    color: white;
+}
+body{
+    background-image: url('Apostle.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px ;
+    margin-right: 200px ;
+    background-color: rgba(255, 255, 255, 0.301); 
+    border-radius: 8px; 
+    padding: 8px; 
+    
+}
+Input[type=button]:hover{
+    opacity: 0.5;
+}
+Input[type=submit]:hover{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 0.5;
+}

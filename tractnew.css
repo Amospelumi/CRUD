@@ -1,0 +1,38 @@
+body{
+    background-image: url('Apostle.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 300px ;
+    margin-right: 350px ;
+    padding: 8px 8px;   
+    background-color: rgba(255, 255, 255, 0.301); 
+    border-radius: 8px;   
+}
+.row{
+    background-color: rgb(6, 6, 170);
+    color: white;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px 8px;  
+}
+input{
+    padding:8px;
+    border-radius: 4px;
+    border: none;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+Input[type=button]:hover{
+    opacity: 0.5;
+}
+Input[type=submit]:hover{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 0.5;
+}
