@@ -108,12 +108,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                     <label>Username</label><br>  
                     <input type="text" size="34" name="username" class="form-control" value="<?php echo $username; ?>">
-                    <span class="help-block"><?php echo $username_err; ?></span>
+                    <p><span class="error"><?php echo $username_err; ?></span></p>
                 </div> <br>
                 <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                     <label>Password</label><br>  
                     <input type="password" size="34" name="password" class="form-control">
-                    <span class="help-block"><?php echo $password_err; ?></span>
+                    <span class="error"><?php echo $password_err; ?></span>
                 </div><br>
                 <div class="form-group">
                     <input style="background-color:green; color:white;" type="submit" class="btn btn-primary" value="Login">
