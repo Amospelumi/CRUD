@@ -18,6 +18,7 @@ if(!isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] !== true){
     <title>Document</title>
     <link rel="stylesheet" href="tractpagination.css">
 </head>
+
 <body>
         <?php
 
